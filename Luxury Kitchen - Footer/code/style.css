@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+
+hr{
+    border-color: red;
+    width: 34%;
+    margin-left: 32%;
+}
+
+h3{
+    color: white;
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+    color: white;
+    font-family: Montserrat, sans-serif;
+    margin-left: 8%;
+    margin-top: 8%;
+}
+
+p{
+    color: #B9B9B9;
+    font-family: Montserrat, sans-serif;
+}
+
+
+
+/*------------------------------------Footer----------*/
+
+.titre-main-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color:#181818;
+    margin: 0;
+    
+}
+
+.info-footer{
+    margin-right: -10%;
+    margin-top: 5%;
+}
+
+.inthefooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-footer{
+    display: flex;
+    margin-bottom: 5%;
+    margin-top: 8%;
+    margin-left: 8%;
+}
+
+.logo-footer{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 10%;
+}
+
+.pay-footer{
+    display: flex;
+    margin-top: 10%;
+    margin-right: 0%;
+    justify-content: space-around;
+}
+
+.fleche{
+    display: flex;
+    margin-top: 35%;
+    margin-bottom: 20%;
+    justify-content: center;
+    margin-left: 7%;
+}
+
+.main-footer{
+    margin-top: 5%;
+}
+
+.join-footer{
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.app-footer{
+  margin-top: 10%;
+}
+
+
+
+/*------------------------------------Footer----------*/
