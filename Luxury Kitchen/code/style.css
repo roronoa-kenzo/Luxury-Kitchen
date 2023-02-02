@@ -381,7 +381,7 @@ form{
     display: flex;
     justify-content: center;
     margin-right: 2%;
-    margin-top: 5%;
+    margin-top: 7%;
 }
 
 .titre-page-compte{
@@ -397,7 +397,45 @@ form{
     margin-bottom: 5%;
 }
 
+.p-page-commande{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 20%;
+}
+
 /*------------------------------------Main-Page-Commande----------*/
+
+/*------------------------------------Main-Page-Parametre----------*/
+
+.hr-parametre{
+    margin-left: 83%;
+    width: 11%;
+}
+
+.hr-parametre2{
+    border-color: white;
+    width: 80%;
+    margin-left: 20%;
+}
+
+.titre-parametre{
+    display: flex;
+    flex-direction: row;
+    margin-left: 21%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.img-fleche-parametre{
+    margin-right: 35px;
+    margin-bottom: -17px;
+}
+
+/*------------------------------------Main-Page-Parametre----------*/
 
 /*------------------------------------Footer----------*/
 
