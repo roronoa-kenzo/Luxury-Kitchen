@@ -21,6 +21,14 @@ h1{
     margin-bottom: 2%;
 }
 
+h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
 h3{
     color: white;
     font-family: Montserrat, sans-serif;
@@ -38,6 +46,10 @@ h4{
 p{
     color: #B9B9B9;
     font-family: Montserrat, sans-serif;
+}
+
+a{
+    text-decoration: none;
 }
 
 /*------------------------------------Navbar----------*/
@@ -118,7 +130,7 @@ html,body {
   }
 
   .logo{
-    width: 110px;
+    width: 180px;
     margin-left: 50px;
     margin-top: 25px;
   }
@@ -136,7 +148,7 @@ html,body {
 
 /*------------------------------------Navbar----------*/
 
-/*------------------------------------Main----------*/
+/*------------------------------------Main Compte 1----------*/
 
 .facebook-btn{
     font-family: Montserrat, sans-serif;
@@ -145,9 +157,9 @@ html,body {
     background-color: #254AA5;
     color: white;
     width: 25%;
-    margin-left: 38%;
+    margin-left: 37%;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     height: 45px;
     margin-bottom: 1%;
 }
@@ -159,9 +171,9 @@ html,body {
     background-color: #000000;
     color: white;
     width: 25%;
-    margin-left: 38%;
+    margin-left: 37%;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     height: 45px;
     margin-bottom: 1%;
 }
@@ -171,12 +183,11 @@ html,body {
     display: flex;
     justify-content: center;
     background-color: #1E1E1E;
-    color: white;
+    color: rgb(255, 255, 255);
     width: 25%;
-    margin-left: 38%;
-    border: 1;
-    border-radius: 20px;
-    border-color: white;
+    margin-left: 37%;
+    border-radius: 10px;
+    border-color: rgb(164, 164, 164);
     height: 45px;
     margin-bottom: 1%;
 }
@@ -184,6 +195,7 @@ html,body {
 .no-account{
     display: flex;
     justify-content: center;
+    margin-top: 3%;
 }
 
 strong{
@@ -191,7 +203,201 @@ strong{
     margin-left: 10px;
 }
 
-/*------------------------------------Main----------*/
+input{
+    width: 8%;
+    color: white;
+    background-color: #1E1E1E;
+    border-radius: 5px;
+    padding: 13px;
+    border: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 45%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.feedback-input{
+    color: rgb(196, 196, 196);
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 15px;
+    background-color: transparent;
+    border: 2px solid #5a5858;
+    transition: all 0.3s;
+    padding: 15px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    outline: 0;
+    margin-left: -107px;
+    display: flex;
+    border-radius: 5px;
+    width: 335px;
+}
+
+.btn-envoyer{
+    display: flex;
+    justify-content: center;
+}
+
+.feedback-btn{
+    color: rgb(196, 196, 196);
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    line-height: 15px;
+    background-color: transparent;
+    border: 2px solid #430000;
+    background-color: #F10000;
+    transition: all 0.3s;
+    padding: 15px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    outline: 0;
+    margin-left: -30px;
+    display: flex;
+    border-radius: 5px;
+    width: 175px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.checkbox{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    font-size: 10px;
+    margin-right: 3px;
+}
+
+.input-checkbox{
+    width: 12px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+}
+
+/*------------------------------------Main Compte 1----------*/
+
+/*------------------------------------Profil----------*/
+
+.profil-head{
+    display: flex;
+    margin-left: 4%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.membre{
+    margin-left: -209px;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.name-profil{
+    margin-left: 2%;
+}
+
+.section-hr{
+    width: 100%;
+    margin-left: 0px;
+    border-color: #B9B9B9;
+}
+
+.section-compte{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 1%;
+}
+
+/*------------------------------------Profil----------*/
+
+/*------------------------------------Main-Page-Compte----------*/
+
+.hr-compte{
+    margin-left: 83px;
+    width: 8%;
+}
+
+.titre-page-compte{
+    font-size: 16px;
+    margin-right: 3%;
+}
+
+.img-page-compte{
+    display: flex;
+    justify-content: space-around;
+}
+
+.description-img-compte{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+    margin-right: 10%;
+    margin-bottom: 4%;
+}
+
+.fin-page-compte{
+    display: flex;
+    justify-content: space-around;
+}
+
+.feedback-btn2{
+    color: rgb(196, 196, 196);
+    font-family: Montserrat, sans-serif;
+    line-height: 15px;
+    background-color: transparent;
+    border: 2px solid #430000;
+    background-color: #831207;
+    transition: all 0.3s;
+    padding: 6px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    outline: 0;
+    margin-left: 100px;
+    display: flex;
+    border-radius: 5px;
+    margin-top: 4%;
+    width: 50%;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+/*------------------------------------Main-Page-Compte----------*/
+
+/*------------------------------------Main-Page-Commande----------*/
+
+.hr-commande{
+    margin-left: 41%;
+    width: 14%;
+}
+
+.img-page-commande{
+    display: flex;
+    justify-content: center;
+    margin-right: 2%;
+    margin-top: 5%;
+}
+
+.titre-page-compte{
+    display: flex;
+    justify-content: center;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+.p-page-compte{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+/*------------------------------------Main-Page-Commande----------*/
 
 /*------------------------------------Footer----------*/
 
@@ -246,11 +452,12 @@ strong{
 
 .main-footer{
     margin-top: 5%;
+    margin-right: 120px;
 }
 
 .join-footer{
     margin-right: 5%;
-    margin-top: 5%;
+    margin-top: 6%;
 }
 
 .app-footer{
