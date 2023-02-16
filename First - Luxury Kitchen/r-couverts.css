@@ -1,0 +1,106 @@
+@media screen and (max-width:769px) {
+
+    nav ul {
+        display: none;
+    }
+
+    .cadre-c {
+        gap: 0%;
+        max-width: 22%;
+    }
+
+    .texte-pizza {
+        font-size: 11px;
+    }
+
+    .cadre-c {
+        flex-basis: 47%;
+        max-width: 24%;
+    }
+
+    .pizza {
+        flex-wrap: nowrap;
+    }
+
+    .pizza img{
+        width: 185px;
+        height: 180px;
+    }
+
+    hr {
+        width: 65%;
+        margin-left: 15%;
+    }
+
+    .prix {
+        margin-top: -57px;
+    }
+
+    .prix {
+        text-align: center;
+        margin-top: -52px;
+        margin-left: 90px;
+    }
+
+    button {
+        width: 130px;
+        height: 28px;
+        margin-bottom: -5px;
+    }
+
+    footer p{
+        font-size: 8px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+
+    h4 {
+        margin-left: 3%;
+        font-size: 14px;
+    }
+
+    .inthefooter img{
+        width: 10%;
+        height: 10%;
+        margin-right: 10px;
+    }
+
+    .app-footer img{
+        width: 100px;
+    }
+
+    .pay-footer img{
+        width: 45px;
+        height: 25px;
+    }
+
+    .pay-footer {
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .join-footer {
+        margin-right: 2%;
+    }
+
+    .join-footer img{
+        width: 18%;
+        align-items: center;
+    }
+
+    .logo-footer {
+        margin-top: 20%;
+    }
+
+    .fleche img{
+        width: 20%;
+        margin-left: -5%;
+    }
+}
+
+/* Ipad Mini to ipad */
+@media screen and (min-width:768px) and (max-width:991px){
+ 
+}
