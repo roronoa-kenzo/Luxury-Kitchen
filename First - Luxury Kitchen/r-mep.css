@@ -104,3 +104,81 @@
 @media screen and (min-width:768px) and (max-width:991px){
  
 }
+@media screen and (max-width:390px){
+
+    main {
+      margin-bottom: 25px;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+    hr {
+      width: 65%;
+      margin-left: 15%;
+      margin-top: -1%;
+    }
+
+    h3 {
+      font-size: 8px;
+    }
+
+    button {
+      width: 110px;
+      height: 25px;
+      margin-bottom: 5px;
+      font-size: 10px;
+    }
+
+    .pizza {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .cadre-c {
+      flex-basis: 47%;
+      max-width: 45%;
+      gap: 0px;
+    }
+
+    .pizza img {
+      width: 100%;
+      height: 180px;
+    }
+
+    .texte-pizza {
+      font-size: 9px;
+    }
+
+    .app-footer img {
+      width: 55px;
+    }
+
+    h4 {
+      font-size: 8px;
+      margin-top: 20%;
+    }
+
+    footer p {
+      font-size: 7px;
+      max-width: 55%;
+    }
+
+    .pay-footer img {
+      width: 35px;
+      height: 18px;
+    }
+
+    .icon-footer {
+      margin-top: 0%;
+    }
+}
+
+@media screen and (max-width:1440px){
+
+  .texte-pizza {
+      background-color: #595959;
+      font-size: 16px;
+      padding: 28px;
+    }
+
+  }

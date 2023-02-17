@@ -12,11 +12,15 @@ html,body {
     padding: 0px;
     border: 0px;
     margin: 0px;
+    color: #ffffff;
   }
-  
+
   main{
     margin-bottom: 25px;
   }
+
+
+    /*********** NAVBAR *********/
 
 
 .container{
@@ -80,7 +84,9 @@ html,body {
       padding-left: 15px;
   }
 
-  /************* LOGO ***********/
+   
+    /************* LOGO ***********/
+
 
   .logo{
     width: 180px;
@@ -99,8 +105,20 @@ html,body {
     margin-top: 25px;
 }
    
+
     /************ CARD ***********/
 
+
+    .cadre-c {
+        border-radius: 5px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        flex-basis: 28%;
+        flex-shrink: 0;
+        max-width: 23%;
+      }
     
     .pizza{
         display: flex;
@@ -108,12 +126,12 @@ html,body {
         justify-content: space-evenly;
         color: #ffffff;
         font-size: 30px;
-        margin-top: 40px;
+        margin-top: 20px;
     }
     
     .pizza img{
-        width: 420px;
-        height: 300px;
+        width: 100%;
+        height: 380px;
         
     }
     
@@ -138,25 +156,13 @@ html,body {
         margin-bottom: 20px;
       }
 
-    .prix{
+      .prix{
         text-align: right;
         margin-top: -60px;
     }
 
-    .cadre-c {
-        border-radius: 5px;
-        overflow: hidden;
-        gap: 12%;
-        display: flex;
-        flex-direction: column;
-        flex-grow: 1;
-        flex-basis: 28%;
-        flex-shrink: 0;
-        max-width: 22%;
-    }
 
-      
-      /********* FOOTER **********/
+    /********* FOOTER **********/
 
 
       hr{
@@ -191,7 +197,8 @@ html,body {
     
     .footer {
         background-color:#181818;
-        margin: 0;  
+        margin: 0;
+        
     }
     
     .info-footer{
@@ -244,4 +251,3 @@ html,body {
     .app-footer{
       margin-top: 10%;
     }
-

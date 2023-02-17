@@ -15,11 +15,6 @@ html,body {
     color: #ffffff;
   }
 
-  main{
-    margin-bottom: 25px;
-  }
-
-
 
     /*********** NAVBAR *********/
 
@@ -109,33 +104,76 @@ html,body {
 
     /************ CARD ***********/
 
-    .cadre-c{
+
+    .titre {
+        font-size: 15px;
+        color: white;
+        margin-top: 40px;
+        margin-bottom: -10px;
+        margin-left: 40px;
+      }
+
+    .cadre-c {
         border-radius: 5px;
         overflow: hidden;
+        gap: 12%;
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        flex-basis: 28%;
+        flex-shrink: 0;
+        max-width: 60%;
+        margin-top: 10px;
+    }
+
+    .cadre-c2 {
+        border-radius: 5px;
+        overflow: hidden;
+        gap: 12%;
+        flex-grow: 1;
+        flex-basis: 28%;
+        flex-shrink: 0;
+        max-width: 28%;
+        background-color: #595959;
+    }
+    .cadre-c2 hr{
+        width: 340px
     }
     
     .pizza{
         display: flex;
         flex-direction: column;
+        justify-content: space-evenly;
         color: #ffffff;
         font-size: 30px;
         margin-left: 40px;
-        margin-top: 10px;
     }
     
     .pizza img{
-        width: 400px;
-        height: 380px;
+        width: 300px;
+        height: 300px;
+        border-radius: 5px;
+        overflow: hidden;
         
     }
     
     .texte-pizza{
-        background-color: #595959;
-        overflow: hidden;
-        font-size: 16px;
-        padding: 30px;
+        font-size: 18px;
     }
-    
+
+    .texte-pizza2{
+        font-size: 16px;
+        text-align: left;
+        margin-left: 25px;
+    }
+
+    .icon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 210px;
+    }
+
     button {
         width: 150px ;
         height: 30px ;
@@ -149,11 +187,109 @@ html,body {
         font-size: 12px;
         cursor: pointer;
         margin-bottom: 20px;
+        margin-left: 100px;
       }
 
-      .titre {
-        font-size: 12px;
+    .prix{
+        margin-top: -60px;
+    }
+
+    .icon img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .lescadres{
+        display: flex;
+        flex-direction: row;
+    }
+
+      /********* FOOTER **********/
+
+
+    footer hr{
+        border-color: red;
+        width: 34%;
+        margin-left: 32%;
+    }
+    
+    h3{
         color: white;
-        margin-top: 40px;
-        margin-left: 40px;
-      }
+        font-family: Montserrat, sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+    
+    h4{
+        color: white;
+        font-family: Montserrat, sans-serif;
+        margin-left: 8%;
+        margin-top: 8%;
+    }
+    
+    footer p{
+        color: #B9B9B9;
+        font-family: Montserrat, sans-serif;
+    }
+    
+    .titre-main-footer{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footer {
+        background-color:#181818;
+        margin: 0;
+        
+    }
+    
+    .info-footer{
+        margin-right: -10%;
+        margin-top: 5%;
+    }
+    
+    .inthefooter{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .icon-footer{
+        display: flex;
+        margin-bottom: 5%;
+        margin-top: 8%;
+        margin-left: 8%;
+    }
+    
+    .logo-footer{
+       display: flex;
+       justify-content: space-around;
+       margin-top: 10%;
+    }
+    
+    .pay-footer{
+        display: flex;
+        margin-top: 10%;
+        margin-right: 0%;
+        justify-content: space-around;
+    }
+    
+    .fleche{
+        display: flex;
+        margin-top: 35%;
+        margin-bottom: 20%;
+        justify-content: center;
+        margin-left: 7%;
+    }
+    
+    .main-footer{
+        margin-top: 5%;
+    }
+    
+    .join-footer{
+        margin-right: 5%;
+        margin-top: 5%;
+    }
+    
+    .app-footer{
+      margin-top: 10%;
+    }

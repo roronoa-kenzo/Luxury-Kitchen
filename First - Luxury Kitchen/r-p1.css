@@ -1,3 +1,20 @@
+@media screen and (max-width:1440px){
+
+.pizza {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 10px;
+    gap: 3%;
+  }
+
+  .texte-pizza{
+    padding: 33px;
+  }
+
+}
+
 @media screen and (max-width:769px) {
 
     nav ul {
@@ -98,8 +115,108 @@
         width: 20%;
         margin-left: -5%;
     }
+}
 
-    
+/* Ipad Mini to ipad */
+@media screen and (min-width:768px) and (max-width:991px){
+    ul {
+        display: none;
+    }
+
+    .cadre-c {
+        gap: 0%;
+        max-width: 22%;
+    }
+
+    .texte-pizza {
+        font-size: 11px;
+    }
+
+    .cadre-c {
+        flex-basis: 47%;
+        max-width: 24%;
+    }
+
+    .pizza {
+        flex-wrap: nowrap;
+    }
+
+    .pizza img{
+        width: 100%;
+        height: 100%;
+    }
+
+    hr {
+        width: 65%;
+        margin-left: 15%;
+    }
+
+    .prix {
+        margin-top: -57px;
+    }
+
+    .prix {
+        text-align: center;
+        margin-top: -52px;
+        margin-left: 90px;
+    }
+
+    button {
+        width: 130px;
+        height: 28px;
+        margin-bottom: -5px;
+    }
+
+    footer p{
+        font-size: 8px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+
+    h4 {
+        margin-left: 3%;
+        font-size: 14px;
+    }
+
+    .inthefooter img{
+        width: 10%;
+        height: 10%;
+        margin-right: 10px;
+    }
+
+    .app-footer img{
+        width: 100px;
+    }
+
+    .pay-footer img{
+        width: 45px;
+        height: 25px;
+    }
+
+    .pay-footer {
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .join-footer {
+        margin-right: 2%;
+    }
+
+    .join-footer img{
+        width: 18%;
+        align-items: center;
+    }
+
+    .logo-footer {
+        margin-top: 20%;
+    }
+
+    .fleche img{
+        width: 20%;
+        margin-left: -5%;
+    }
 }
 
 @media screen and (max-width:390px){
@@ -121,10 +238,15 @@
     }
 
     button {
-      width: 110px;
-      height: 25px;
-      margin-bottom: 5px;
-      font-size: 10px;
+        width: 90px;
+        height: 20px;
+        margin-bottom: 0px;
+        font-size: 9px;
+      }
+
+    .titre{
+        font-size: 9px;
+        margin-left: 15px;
     }
 
     .pizza {
@@ -134,7 +256,7 @@
 
     .cadre-c {
       flex-basis: 47%;
-      max-width: 45%;
+      max-width: 46%;
       gap: 0px;
     }
 
@@ -145,6 +267,7 @@
 
     .texte-pizza {
       font-size: 9px;
+      padding: 15px;
     }
 
     .app-footer img {
@@ -170,13 +293,3 @@
       margin-top: 0%;
     }
 }
-
-@media screen and (max-width:1440px){
-
-  .texte-pizza {
-      background-color: #595959;
-      font-size: 16px;
-      padding: 28px;
-    }
-  
-  }
