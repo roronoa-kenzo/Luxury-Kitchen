@@ -26,33 +26,30 @@
             
             <div class="logo2">
                 <a href="#"><img src="/code/img/bag.png" alt=""></a>
-                <a href="#"><img src="/code/img/profil.png" alt=""></a>
+                <a href="/code/Compte - Luxury Kitchen/index.html"><img src="/code/img/profil.png" alt=""></a>
             </div>
         </nav>
     </header>
 
     <main>
-     <div class="formulaire">
+        <div class="formulaire">
            <h1>S'IDENTIFIER</h1>
            <input class="facebook-btn" type="button" value="CONTINUER AVEC FACEBOOK">
            <input class="apple-btn" type="button" value="CONTINUER AVEC APPLE">
            <input class="google-btn" type="button" value="CONTINUER AVEC GOOGLE">
         
-        <div class="no-account">
-          <p>Vous n'avez pas de compte?</p>
-          <a href="/code/Compte - Luxury Kitchen/create.html"><strong>Crée votre compte ici.</strong></a>
-        </div>
-            <form>
-
-                <input name="Email ou numero de téléphone" type="text" class="feedback-input" placeholder="Email ou numero de téléphone" />   
-            
-                <input name="Mot de Pass" type="password" class="feedback-input" placeholder="Mot de Passe" />  
-                
-            </form>
-            <div class="btn-envoyer">
-            <a href="/code/First - Luxury Kitchen/p1.html"><input type="button" value="SE CONNECTER" class="feedback-btn"></a>
+           <div class="no-account">
+               <p>Vous n'avez pas de compte?</p>
+               <a href="/code/Compte - Luxury Kitchen/create.html"><strong>Crée votre compte ici.</strong></a>
             </div>
-     </div> 
+            <form action="/code/First - Luxury Kitchen/p1.html" method="get"> 
+                <input  type="text" class="feedback-input" placeholder="Email ou numero de téléphone" name="Email ou numero de téléphone" required pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"/>         
+                <input type="password" class="feedback-input" placeholder="Mot de Passe" name="Mot de Pass" required pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"/>  
+                <div class="btn-envoyer">
+                    <input type="Submit" value="SE CONNECTER" class="feedback-btn">
+                </div>
+            </form>
+        </div> 
     </main>
 
     <footer class="footer">             

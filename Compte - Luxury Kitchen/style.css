@@ -55,6 +55,32 @@ a{
     text-decoration: none;
 }
 
+label{
+    color: white;
+    margin-bottom: 15px;
+    margin-left: -80px;
+}
+
+.label-prenom{
+    margin-left: -38px;
+}
+
+.label-phone{
+    margin-left: -34px;
+}
+
+.label-adresse{
+    margin-left: 21px;
+}
+
+.label-CP{
+    margin-left: 9px;
+}
+
+.label-ville{
+    margin-left: 40px;
+}
+
 /*------------------------------------Navbar----------*/
 
 html,body {
@@ -245,8 +271,7 @@ form{
 }
 
 .btn-envoyer{
-    display: flex;
-    justify-content: center;
+    margin-left: -30px;
 }
 
 .feedback-btn{
@@ -441,6 +466,60 @@ form{
 }
 
 /*------------------------------------Main-Page-Parametre----------*/
+
+/*------------------------------------Page-Paiement-1-et-2---------*/
+
+label{
+    color: white;
+    margin-bottom: 15px;
+    margin-left: -80px;
+}
+
+.label-prenom{
+    margin-left: -38px;
+}
+
+.label-phone{
+    margin-left: -34px;
+}
+
+.label-adresse{
+    margin-left: 21px;
+}
+
+.label-CP{
+    margin-left: 9px;
+}
+
+.label-ville{
+    margin-left: 40px;
+}
+
+.title-paiement2{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.label-NC{
+    margin-left: -10px;
+}
+
+.label-date{
+    margin-left: -10px;
+}
+
+.date-exp{
+    display: flex;
+    flex-direction: column;
+    margin-left: -105px;
+}
+
+.jour{
+    margin-bottom: 2%;
+}
+
+
 
 /*------------------------------------Footer----------*/
 
